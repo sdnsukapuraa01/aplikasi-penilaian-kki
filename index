@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Aplikasi Penilaian Kinerja Pegawai KKI - SDN Sukapura 01</title>
+    <link rel="icon" href="logo.jpg" type="image">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="logo.jpg">
+  </head>
+  <body>
+    <iframe src="https://script.google.com/macros/s/AKfycbzXSgZVF08VViptxLaFAxqJ293KuSNO9X3IApp3tblRCpmoovPlXPr1Nu-pmGyZUfx6/exec"
+      style="position:fixed; top:0; left:0; width:100%; height:100%; border:none;">
+    </iframe>
+    
+    <script>
+      if (window.innerWidth <= 768) {
+        const iframe = document.querySelector('iframe');
+        iframe.style.transform = 'scale(0.85)';
+        iframe.style.transformOrigin = '0 0';
+        iframe.style.width = '117.65%';
+        iframe.style.height = '117.65%';
+      }
+    </script>
+  </body>
+</html>
